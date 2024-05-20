@@ -96,7 +96,9 @@ LEARN
 .list-group-item i{
     float:right;
 }
-
+.course-list{
+    background:#f1f1f1;
+}
 
 /* Small devices (landscape phones, 576px and up)*/
 @media (max-width: 576px) {

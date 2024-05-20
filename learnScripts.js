@@ -153,6 +153,27 @@ const videos = [
         description: "In this lesson, Dell Puckett breaks down and explains the 12 bar blues progression using a simple box diagram.",
         youtubeLink: "https://youtu.be/fIzUhmhjV-Y?si=43wm0Kbw-Jf0iWn-",
         complete: false
+    },
+    {
+        id: 23,
+        title: "Finger Picking for Beginners",
+        description: "In this lesson, Juzzie Smith teaches a picking pattern that works on a variety of stringed instruments including the cigar box guitar.",
+        youtubeLink: "https://youtu.be/Wes3YkOwsQk?si=NoEzMPJ_nlazoNQA",
+        complete: false
+    },
+    {
+        id: 24,
+        title: "Blues Improvisation Lesson",
+        description: "In this lesson, Dell Puckett teaches strategies for improvising with the blues scale.",
+        youtubeLink: "https://youtu.be/Dqyz7A_aTcI?si=DdMvLZltXVASw2qY",
+        complete: false
+    },
+    {
+        id: 25,
+        title: "Soloing the Blues",
+        description: "In this lesson, Uncle Mark teaches how to solo over Howling Wolf's \"Who's Been Talking?\"",
+        youtubeLink: "https://youtu.be/-VRMQbaN_fU?si=XspUVBXeIc68Z4ei",
+        complete: false
     }
     /*
     {
@@ -177,7 +198,7 @@ const courses = [
     },
     {
         title: "Finger Picking",
-        videoIds: [13, 14]
+        videoIds: [13, 14, 23]
     },
     {
         title: "Music Theory",
@@ -185,7 +206,7 @@ const courses = [
     },
     {
         title: "Learn The Blues",
-        videoIds: [4, 20, 21, 14, 22]
+        videoIds: [4, 20, 21, 14, 22, 25, 24]
     }
 ];
 // Function to display courses and populate the first course on load
