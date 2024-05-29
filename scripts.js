@@ -473,3 +473,9 @@ document.addEventListener('DOMContentLoaded', function() {
         displayMessage("Link copied to clipboard!");
     }
 });
+
+
+//Hello Bar
+function hideHelloBar() {
+    document.getElementById('helloBar').style.display = 'none';
+}

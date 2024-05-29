@@ -1,7 +1,6 @@
 /* Custom CSS styles */
 body {
     font-family: Arial, sans-serif;
-    padding:0 0 100px 0;
     color:#1E1E1E;
 }
 .navbar{
@@ -34,6 +33,22 @@ body {
     opacity:0.6;
 }
 
+/* Hello Bar */
+#helloBar p{
+    margin-bottom:0;
+}
+.alert{
+    border-radius: 0;
+    border:0;
+}
+.btn-close{
+    float:right;
+    padding-right:10px;
+}
+
+.modal-body span{
+    text-decoration: underline;
+}
 /* Responsive video player */
 .embed-responsive {
     position: relative;
@@ -42,7 +57,7 @@ body {
     padding: 0;
     overflow: hidden;
     min-height:482px;
-    background-color: #FFFCEB;
+    background-color: #f1f1f1;
 }
 .ad{
     width:100%;
@@ -106,4 +121,7 @@ LEARN
        font-size:11px;
        margin-bottom:5px;
     }    
+    #helloBar p{
+        text-align: left;
+    }
 }
